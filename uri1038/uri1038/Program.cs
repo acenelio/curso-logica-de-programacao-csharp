@@ -5,9 +5,9 @@ namespace uri1038 {
     class Program {
         static void Main(string[] args) {
 
-            string[] line = Console.ReadLine().Split(' ');
-            int codigo = int.Parse(line[0]);
-            int quantidade = int.Parse(line[1]);
+            string[] valores = Console.ReadLine().Split(' ');
+            int codigo = int.Parse(valores[0]);
+            int quantidade = int.Parse(valores[1]);
 
             double total;
             if (codigo == 1) {

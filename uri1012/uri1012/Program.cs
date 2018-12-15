@@ -7,10 +7,10 @@ namespace uri1012 {
 
             double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
 
-            string[] vect = Console.ReadLine().Split(' ');
-            A = double.Parse(vect[0], CultureInfo.InvariantCulture);
-            B = double.Parse(vect[1], CultureInfo.InvariantCulture);
-            C = double.Parse(vect[2], CultureInfo.InvariantCulture);
+            string[] valores = Console.ReadLine().Split(' ');
+            A = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            B = double.Parse(valores[1], CultureInfo.InvariantCulture);
+            C = double.Parse(valores[2], CultureInfo.InvariantCulture);
 
             triangulo = A * C / 2.0;
             circulo = 3.14159 * C * C;

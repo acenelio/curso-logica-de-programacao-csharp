@@ -4,9 +4,9 @@ namespace uri1115 {
     class Program {
         static void Main(string[] args) {
 
-            string[] line = Console.ReadLine().Split(' ');
-            int x = int.Parse(line[0]);
-            int y = int.Parse(line[1]);
+            string[] valores = Console.ReadLine().Split(' ');
+            int x = int.Parse(valores[0]);
+            int y = int.Parse(valores[1]);
 
             while (x != 0 && y != 0) {
                 if (x > 0 && y > 0) {
@@ -21,9 +21,9 @@ namespace uri1115 {
                 else {
                     Console.WriteLine("quarto");
                 }
-                line = Console.ReadLine().Split(' ');
-                x = int.Parse(line[0]);
-                y = int.Parse(line[1]);
+                valores = Console.ReadLine().Split(' ');
+                x = int.Parse(valores[0]);
+                y = int.Parse(valores[1]);
             }
         }
     }

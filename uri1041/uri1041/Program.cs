@@ -5,9 +5,9 @@ namespace uri1041 {
     class Program {
         static void Main(string[] args) {
 
-            string[] line = Console.ReadLine().Split(' ');
-            double x = double.Parse(line[0], CultureInfo.InvariantCulture);
-            double y = double.Parse(line[1], CultureInfo.InvariantCulture);
+            string[] valores = Console.ReadLine().Split(' ');
+            double x = double.Parse(valores[0], CultureInfo.InvariantCulture);
+            double y = double.Parse(valores[1], CultureInfo.InvariantCulture);
 
             if (x == 0.0 && y == 0.0) {
                 Console.WriteLine("Origem");

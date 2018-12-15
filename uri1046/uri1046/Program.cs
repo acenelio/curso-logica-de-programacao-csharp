@@ -4,9 +4,9 @@ namespace uri1046 {
     class Program {
         static void Main(string[] args) {
 
-            string[] line = Console.ReadLine().Split(' ');
-            int horaInicial = int.Parse(line[0]);
-            int horaFinal = int.Parse(line[1]);
+            string[] valores = Console.ReadLine().Split(' ');
+            int horaInicial = int.Parse(valores[0]);
+            int horaFinal = int.Parse(valores[1]);
 
             int duracao;
             if (horaInicial < horaFinal) {
