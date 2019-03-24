@@ -9,8 +9,10 @@ namespace vetor4 {
 
             double[] vet = new double[N];
 
+            string[] valores = Console.ReadLine().Split(' ');
+
             for (int i = 0; i < N; i++) {
-                vet[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                vet[i] = double.Parse(valores[i], CultureInfo.InvariantCulture);
             }
 
             // 1: calculando e mostrando a media
@@ -22,7 +24,6 @@ namespace vetor4 {
             Console.WriteLine("MEDIA = " + media.ToString("F3", CultureInfo.InvariantCulture));
 
             // 2: mostrando todos elementos abaixo da media
-            Console.WriteLine("VALORES ABAIXO DA MEDIA:");
             for (int i = 0; i < N; i++) {
                 if (vet[i] < media) {
                     Console.WriteLine(vet[i].ToString("F1", CultureInfo.InvariantCulture));

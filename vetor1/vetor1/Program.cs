@@ -9,8 +9,10 @@ namespace vetor1 {
 
             double[] vet = new double[N];
 
+            string[] valores = Console.ReadLine().Split(' ');
+
             for (int i = 0; i < N; i++) {
-                vet[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                vet[i] = double.Parse(valores[i], CultureInfo.InvariantCulture);
             }
 
             double maior = vet[0];

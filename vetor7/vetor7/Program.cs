@@ -7,7 +7,7 @@ namespace vetor7 {
 
             int N = int.Parse(Console.ReadLine());
 
-            String[] nomes = new String[N];
+            string[] nomes = new String[N];
             double[] notasSemestre1 = new double[N];
             double[] notasSemestre2 = new double[N];
 
