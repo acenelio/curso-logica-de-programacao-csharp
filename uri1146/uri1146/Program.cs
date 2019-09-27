@@ -7,11 +7,12 @@ namespace uri1146 {
             int x = int.Parse(Console.ReadLine());
 
             while (x != 0) {
-
+                string s = "";
                 for (int i = 1; i < x; i++) {
-                    Console.Write(i + " ");
+                    s = s + i + " ";
                 }
-                Console.WriteLine(x);
+                s = s + x;
+                Console.WriteLine(s);
 
                 x = int.Parse(Console.ReadLine());
             }
