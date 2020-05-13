@@ -5,7 +5,6 @@ namespace uri1061 {
         static void Main(string[] args) {
 
             int W1, X1, Y1, Z1, W2, X2, Y2, Z2, W, X, Y, Z, inicio, fim, duracao, resto;
-            string s;
 
             string[] valores = Console.ReadLine().Split(' ');
             W1 = int.Parse(valores[1]);
