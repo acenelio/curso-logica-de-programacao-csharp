@@ -18,7 +18,7 @@ namespace uri1116 {
                 }
                 else {
                     double div = (double)x / y;
-                    Console.WriteLine(div.ToString("F1", CultureInfo.InvariantCulture);
+                    Console.WriteLine(div.ToString("F1", CultureInfo.InvariantCulture));
                 }
             }
         }
